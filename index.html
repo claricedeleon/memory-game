@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Game</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <section class="left">
+            <div class="menu">MENU</div>
+            <div class="levels">
+                <button id="easy">Easy</button>
+                <button id="medium">Medium</button>
+                <button id="hard">Hard</button>
+            </div>
+        </section>
+
+
+        <section class="middle">
+            <h1 id="title">MEMORY GAME</h1>
+            <div class="container">
+                <div class="card" data-color="turquoise">
+                    <div class="back" id="turquoise1"></div>
+                </div>
+                <div class="card" data-color="turquoise">
+                    <div class="back" id="turquoise2"></div>
+                </div>
+                <div class="card" data-color="crimson">
+                    <div class="back" id="crimson1"></div>
+                </div>
+                <div class="card" data-color="crimson">
+                    <div class="back" id="crimson2"></div>
+                </div>
+                <div class="card" data-color="darkolivegreen">
+                    <div class="back" id="darkolivegreen1"></div>
+                </div>
+                <div class="card" data-color="darkolivegreen">
+                    <div class="back" id="darkolivegreen2"></div>
+                </div>
+                <div class="card" data-color="darksalmon">
+                    <div class="back" id="darksalmon1"></div>
+                </div>
+                <div class="card" data-color="darksalmon">
+                    <div class="back" id="darksalmon2"></div>
+                </div>
+                <div class="card" data-color="darkmagenta">
+                    <div class="back" id="darkmagenta1"></div>
+                </div>
+                <div class="card" data-color="darkmagenta">
+                    <div class="back" id="darkmagenta2"></div>
+                </div>
+                <div class="card" data-color="goldenrod">
+                    <div class="back" id="goldenrod1"></div>
+                </div>
+                <div class="card" data-color="goldenrod">
+                    <div class="back" id="goldenrod2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="left">
+            <div class="scoreboard">
+                <p class="score">Score:<br>
+                    <span id="showScore">0</span> / 12
+                </p>
+            </div>
+            <div class="timer">
+                <div id="timeLeft">
+                </div>
+                <div>
+                    <button id="startBtn">Start Game</button>
+                </div>
+            </div>
+            <!--<p id="countdown"></p>-->
+        </section>
+
+
+        <script src="script.js">
+
+        </script>
+    </body>
+
+</html>
